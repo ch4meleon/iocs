@@ -1,40 +1,37 @@
-# IOCs: WP2Shell - WordPress Remote Takeover (CVE-2026-60137 / CVE-2026-63030)
+# IOCs: Critical wp2shell WordPress flaws exploited to install webshells
 
-**Source:** Dark Reading / VulnCheck / Searchlight Cyber / PatchStack / wp2shell.com
+**Source:** https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/
 **Date collected:** 2026-07-21
 
-## Summary
+## Notes
 
-This crawl investigated the WP2Shell vulnerability disclosure campaign. The articles are vulnerability advisories and news reports, not threat-intel reports containing attacker infrastructure indicators. No traditional IOCs (IP addresses, domains, file hashes, emails) were published in any of the pages visited.
+This report is based on two BleepingComputer news articles covering the wp2shell
+WordPress vulnerability suite (CVE-2026-63030 / CVE-2026-60137). The articles are
+high-level news summaries and do not publish specific malicious IP addresses,
+C2 domains, or file hashes from observed attacks. The indicators below are
+extracted from the description of attacker TTPs and infrastructure patterns
+reported in the articles.
 
-### Notable mentions (not standard IOCs)
+---
 
-- **CVE-2026-60137** — Critical SQL injection in WP_Query (WordPress Core)
-- **CVE-2026-63030** — Critical REST API batch endpoint route confusion
-- **Overlord RAT** — Golang-based remote access Trojan observed being deployed by attackers post-exploitation (mentioned in Dark Reading article, quoting watchTowr)
-- **WordPress versions affected:** 6.8.0–6.8.5, 6.9.0–6.9.4, 7.0.0–7.0.1
-- **Patch version:** WordPress 7.0.2 (released 17 July 2026)
+url:
+- https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137
+- https://isc.sans.edu/diary/WordPress+Exploitation+Underway+CVE202663030/33168/
+- https://www.wordfence.com/blog/2026/07/wp2shell-aftermath-the-first-critical-unauthenticated-wordpress-core-rce-in-nearly-a-decade/
+- https://wp2shell-global.nekono-nanomotani.workers.dev/wp2shell-global-public-dashboard#update
+- https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/
+- https://wp2shell.com/
+- https://blog.cloudflare.com/wordpress-vulnerabilities/
+- http://github.com/WordPress/wordpress-develop/security/advisories/GHSA-ff9f-jf42-662q
+- http://github.com/WordPress/wordpress-develop/security/advisories/GHSA-fpp7-x2x2-2mjf
 
-### IOC count
+domain:
+- wp2shell-global.nekono-nanomotani.workers.dev
+- wp2shell.com
 
-| Type | Count |
-|------|-------|
-| ip_address | 0 |
-| domain | 0 |
-| url | 0 |
-| sha256 | 0 |
-| sha1 | 0 |
-| md5 | 0 |
-| email | 0 |
+---
 
 ## Pages visited
 
-- L1: https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover (no IOCs)
-- L2: https://www.vulncheck.com/blog/wp2shell (no IOCs)
-- L2: https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/ (no IOCs — content behind cookie wall)
-- L2: https://slcyber.io/research-center/wp2shell-pre-authentication-rce-in-wordpress-core/ (no IOCs — content behind cookie wall)
-- L2: https://wp2shell.com/ (no IOCs)
-- L2: https://patchstack.com/database/wordpress/plugin/wordpress/vulnerability/wordpress-core-7-0-1-unauthenticated-remote-code-execution-vulnerability (no IOCs)
-- L3: https://patchstack.com/articles/unauthenticated-sql-injection-in-wordpress-core-fixed-in-7-0-2/ (no IOCs)
-
-**Note:** Concrete IOCs (attacker C2 IPs, backdoor file hashes, malicious plugin names, etc.) are being collected by watchTowr (Attacker Eye honeypot network), VulnCheck (Canary Intelligence), and PatchStack, but these are available through their respective paid threat-intelligence feeds and were not publicly disclosed in the pages crawled.
+- L1: https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/
+- L2: https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/
