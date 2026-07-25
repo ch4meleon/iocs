@@ -1,0 +1,166 @@
+# IOCs: Ransomware infrastructure and ClickFix campaigns (Recorded Future blog)
+
+**Source:** https://www.recordedfuture.com/blog/ransomware-is-the-scoreboard
+**Date collected:** 2026-07-25
+
+ip_address:
+- 45.61.136.9
+- 45.61.136.40
+- 45.61.136.41
+- 45.61.136.67
+- 45.61.136.89
+- 45.61.136.132
+- 45.61.136.196
+- 62.164.177.230
+- 64.7.198.66
+- 64.94.85.98
+- 64.94.85.248
+- 64.95.11.65
+- 64.95.11.184
+- 64.95.12.38
+- 64.95.12.98
+- 64.190.113.41
+- 64.190.113.111
+- 77.91.65.31
+- 77.91.65.144
+- 91.202.233.206
+- 146.70.41.191
+- 152.89.244.70
+- 162.33.177.36
+- 162.33.177.82
+- 162.33.178.59
+- 162.33.178.63
+- 162.33.178.75
+- 162.33.178.113
+- 193.149.176.179
+- 193.149.176.223
+- 193.149.176.248
+- 216.245.184.179
+- 216.245.184.210
+- 216.245.184.225
+
+domain:
+- alababababa.cloud
+- ambiwa.com
+- avayehazar.ir
+- bkng-updt.com
+- boneyn.com
+- calbbs.com
+- challenginksch.com
+- chalnlizt.org
+- check-googlle.com
+- checkpulses.com
+- chewels.com
+- chhimi.com
+- chrm-srv.com
+- cihainlst.org
+- coeshor.com
+- comteste.com
+- cvqrcode.lpmglobalrelations.com
+- dechromo.com
+- discoves.com
+- dhusch.com
+- djnito.com
+- dncoding.com
+- downloading.bplnetempresas.com
+- dsassoc.com
+- ecrut.com
+- edveha.com
+- elamoto.com
+- elizgallery.com
+- eliztalks.com
+- enethost.com
+- energjoy.com
+- esaleerugs.com
+- espumadesign.com
+- evolverangesolutions.com
+- fastard.com
+- franklinida.com
+- gcafin.com
+- genhil.com
+- gmdva.org
+- gologpoint.com
+- gwcomics.com
+- habfan.com
+- hdtele.com
+- hotelupdatesys.com
+- howmanychairs.com
+- ilsotto.com
+- incalzireivar.ro
+- io-suite-web.com
+- iognews.com
+- mercro.com
+- mgssoft.com
+- miner-tolken.com
+- mirugby.com
+- mktgads.com
+- ms-scedg.com
+- mtclibraries.com
+- nastictac.com
+- nobovcs.com
+- ns1.webasatir.ir
+- nyciot.com
+- opgears.com
+- pemalite.com
+- piedsmontlaw.com
+- pursyst.com
+- pushcg.com
+- pweobmxdlboi.com
+- reloadinternet.com
+- ronnin-v2.com
+- rshank.com
+- safigdata.com
+- satpr.com
+- sdrce.com
+- selectmotors.net
+- selmanc.com
+- sign-in-op-token.com
+- sokrpro.com
+- sollishealth.com
+- sustaincharlotte.org
+- symbliatc.com
+- symbietic.com
+- symbieitc.com
+- symdilatic.com
+- symdlotic.com
+- synbioltic.com
+- tayakay.com
+- theinb.com
+- thestayreserve.com
+- tibetin.com
+- tickerwell.com
+- true-blood.net
+- update-chronne.com
+- usbkits.com
+- v2-rubby.com
+- vicrin.com
+- winworld.es
+- xaides.com
+- www.de.digitaalkantoor.online
+- www.ecowas.int
+- www.lovebscott.com
+- www.netzwerkreklame.de
+- www.pawrestling.net
+- www.pcbc.gov.pl
+
+url:
+- https://alababababa.cloud/cVGvQio6.txt
+- https://update-chronne.com/moc.txt
+- https://wl.gl/25dW64
+
+sha256:
+- 397dcea810f733494dbe307c91286d08f87f64aebbee787706fe6561ed3e20f8
+- 43907e54cf3d1258f695d1112759b5457576481072cc76a679b8477cfeb3db87
+- 5d821db386c7c879caeabf3e9f94c94a48eec6ec5a3a0efbae9d69da3f52c1db
+- b17c3e4058aacdcc36b18858d128d6b3058e0ea607a4dc59eb95b18b7c6acc7c
+- c0af6e9d848ada3839811bf33eeb982e6c207e4c40010418e0185283cd5cff50
+
+## Pages visited
+
+- L1: https://www.recordedfuture.com/blog/ransomware-is-the-scoreboard (no IOCs)
+- L2: https://www.recordedfuture.com/research/ransomhub-draws-in-affiliates-with-multi-os-capability-and-high-commission-rates (no IOCs)
+- L2: https://www.recordedfuture.com/research/clickfix-campaigns-targeting-windows-and-macos
+- L2: https://www.recordedfuture.com/blog/massive-hidden-infrastructure-enabling-big-game-hunting-at-scale (no IOCs)
+- L2: https://www.recordedfuture.com/research/tag-124-multi-layered-tds-infrastructure-extensive-user-base
+- L2: https://assets.recordedfuture.com/insikt-report-pdfs/2024/mtp-2024-0620.pdf (unreadable - PDF)
+- L2: https://www.recordedfuture.com/research/outmaneuvering-rhysida-advanced-threat-intelligence-shields-critical-infrastructure-ransomware (no IOCs)
