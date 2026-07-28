@@ -1,18 +1,43 @@
-# IOCs: MedusaHVNC Trojan
+# IOCs: MedusaHVNC Malware
 
-**Source:** https://securityaffairs.com/196111/malware/medusahvnc-trojan-creates-hidden-desktops-to-hijack-browsers-and-steal-data.html
+**Source:** https://www.securityweek.com/medusahvnc-malware-uses-hidden-windows-desktops-to-evade-detection/ (via BlackFog analysis at https://www.blackfog.com/medusahvnc-a-hidden-desktop/)
 **Date collected:** 2026-07-27
 
 ip_address:
 - 51.89.204.28
 
+domain:
+- (none identified)
+
+url:
+- (none identified)
+
+sha256:
+- (hashes redacted by original researchers in published article)
+
+sha1:
+- (hashes redacted by original researchers in published article)
+
+md5:
+- (hashes redacted by original researchers in published article)
+
+email:
+- (none identified)
+
+## Additional artifacts (file names observed during infection chain)
+
+These are not cryptographic hashes but are file/directory names dropped by the malware that can serve as detection indicators:
+
+- eepcxlhgdz.exe (AutoIt interpreter dropped under %TEMP%\Nx2981Okkr2\)
+- zorsxklxfehdoals (encrypted payload dropped under %TEMP%\Nx2981Okkr2\)
+- AFLlvOscPj.bat (persistence batch file placed in Startup folder)
+- %TEMP%\Nx2981Okkr2\ (working directory where payloads are staged)
+- C2 port: 4444
+- XOR decryption key: 0xAE (single-byte)
+
 ## Pages visited
 
-- L1: https://securityaffairs.com/196111/malware/medusahvnc-trojan-creates-hidden-desktops-to-hijack-browsers-and-steal-data.html
-- L2: https://www.blackfog.com/medusahvnc-a-hidden-desktop/ (no IOCs beyond those already collected at L1)
-
-## Notes
-
-- The C2 server **51.89.204.28** is hard-coded in the MedusaHVNC binary on TCP port **4444**.
-- The BlackFog research article references "the hashes in the IOC table" but those hashes (MD5/SHA1/SHA256) were presented in an embedded image that could not be extracted via text rendering. The original BlackFog report at https://www.blackfog.com/medusahvnc-a-hidden-desktop/ contains this IOC table in image format.
-- Additional technical details from the analysis: XOR key 0xAE (single-byte), ChaCha20 with 32-byte key and 12-byte nonce used for payload decryption.
+- L1: https://www.securityweek.com/medusahvnc-malware-uses-hidden-windows-desktops-to-evade-detection/ (1 IOC: IP address)
+- L2: https://www.blackfog.com/medusahvnc-a-hidden-desktop/ (additional file-name artifacts; hashes redacted in published analysis)
+- L3: https://www.blackfog.com/threats/ (no IOCs — index page)
+- L3: https://www.blackfog.com/exploits/ (no IOCs — index page)
