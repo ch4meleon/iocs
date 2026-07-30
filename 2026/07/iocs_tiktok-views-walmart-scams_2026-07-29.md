@@ -1,0 +1,138 @@
+# IOCs: Buying TikTok views/followers scam & related fake Walmart stores
+
+**Source:** https://www.malwarebytes.com/blog/threat-intel/2026/07/buying-tiktok-views-or-followers-heres-what-youre-really-getting
+**Date collected:** 2026-07-29
+
+domain:
+- allgoodscenter.shop
+- allneedsbay.shop
+- allneedslane.shop
+- allneedsmarket.shop
+- allneedsstore.shop
+- allpurposebay.shop
+- basketandmore.shop
+- broadbasket.shop
+- broadbasketbay.shop
+- broadbasketco.shop
+- broadbasketlane.shop
+- broadbasketplace.shop
+- broadbasketway.shop
+- broadchoice.shop
+- broadgoodsbay.shop
+- broadgoodscenter.shop
+- broadgoodsplace.shop
+- broadgoodsway.shop
+- broadmarketplacehub.shop
+- broadutility.shop
+- broadutilityhub.shop
+- broadvalue.shop
+- broadvaluebay.shop
+- broadvalueplace.shop
+- cartandcrate.shop
+- completehomegoods.shop
+- dailybasketport.shop
+- dailybasketway.shop
+- dailychoiceway.shop
+- dailycrate.shop
+- dailyfindslane.shop
+- dailygoodscrest.shop
+- dailygoodsfield.shop
+- dailygoodspark.shop
+- dailygoodsridge.shop
+- dailygoodsway.shop
+- dailygoodswayhub.shop
+- dailyhomemarket.shop
+- dailyutilitybay.shop
+- dailyutilityway.shop
+- everydaycartshop.shop
+- everydayneedsco.shop
+- everydayvaluebay.shop
+- generalcart.shop
+- generalcartlane.shop
+- generalgoodsport.shop
+- generalgoodsridge.shop
+- generalgoodsway.shop
+- generalgoodsyard.shop
+- generalmarketbay.shop
+- generalmarketfield.shop
+- generalneedsplace.shop
+- generalvaluebay.shop
+- goodsandhomebay.shop
+- goodsandhomeco.shop
+- goodsandhomehub.shop
+- goodsandlivinghub.shop
+- goodsandmoreco.shop
+- goodsandvaluehub.shop
+- goodsdistrict.shop
+- goodslanding.shop
+- goodsmeadow.shop
+- goodsroute.shop
+- goodsvalley.shop
+- homeandutility.shop
+- homebasketlane.shop
+- homebasketway.shop
+- homecartcenter.shop
+- homefieldmarket.shop
+- homefindsco.shop
+- homegoodscrate.shop
+- homegoodsport.shop
+- homegoodsway.shop
+- homelivinggoods.shop
+- homeneedslane.shop
+- homeneedsmarket.shop
+- homeparcel.shop
+- homesteadmart.shop
+- homeutilitystore.shop
+- homevaluebay.shop
+- homevalueplace.shop
+- homevalueway.shop
+- marketbasketcenter.shop
+- marketcanvas.shop
+- marketchoicebay.shop
+- marketchoiceplace.shop
+- marketfieldhub.shop
+- marketfindsbay.shop
+- marketfoundry.shop
+- marketgrovehub.shop
+- markethomeplace.shop
+- marketpillar.shop
+- marketpine.shop
+- marketridge.shop
+- markettrailway.shop
+- marketwarehouse.shop
+- modernsupplyhub.shop
+- smartbasketplace.shop
+- smartdailygoods.shop
+- smartneedshub.shop
+- smartutilityhub.shop
+- smartvaluebay.shop
+- trustedgoods.shop
+- usefulbasketlane.shop
+- usefulcartcenter.shop
+- usefulchoicebay.shop
+- usefuldailyhub.shop
+- usefulgoodsbay.shop
+- usefulgoodscenter.shop
+- usefulgoodspark.shop
+- usefulgoodsway.shop
+- usefulgoodswayhub.shop
+- usefulgoodsyard.shop
+- usefulmarket.shop
+- usefulmarketbay.shop
+- usefulshelf.shop
+- usefulutility.shop
+- usefulvalueplace.shop
+- utilitygoods.shop
+- valuechoicebay.shop
+- valuegoodspark.shop
+- valuegoodsridge.shop
+- valuegrove.shop
+- valueparcel.shop
+
+## Pages visited
+
+- L1: https://www.malwarebytes.com/blog/threat-intel/2026/07/buying-tiktok-views-or-followers-heres-what-youre-really-getting (no IOCs)
+- L2: https://www.malwarebytes.com/blog/threat-intel/2026/07/call-of-duty-mobile-scam-uses-fake-free-points-to-steal-player-accounts (no IOCs)
+- L2: https://www.malwarebytes.com/blog/news/2026/07/new-clicklock-stealer-locks-your-mac-until-you-hand-over-your-password (no IOCs)
+- L2: https://www.malwarebytes.com/blog/threat-intel/2026/07/the-odyssey-piracy-scams-appear-within-hours-of-the-movies-release (no IOCs)
+- L3: https://www.malwarebytes.com/blog/scams/2026/07/we-found-120-fake-walmart-stores-trying-to-steal-your-credit-card (120+ domain IOCs found)
